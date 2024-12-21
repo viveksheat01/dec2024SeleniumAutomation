@@ -2,12 +2,12 @@
 <testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-21T21:53:59 IST" name="Default suite" finished-at="2024-12-21T21:54:18 IST" duration-ms="18239">
+  <suite started-at="2024-12-21T22:08:22 IST" name="Default suite" finished-at="2024-12-21T22:08:42 IST" duration-ms="20078">
     <groups>
     </groups>
-    <test started-at="2024-12-21T21:53:59 IST" name="Default test" finished-at="2024-12-21T21:54:18 IST" duration-ms="18239">
+    <test started-at="2024-12-21T22:08:22 IST" name="Default test" finished-at="2024-12-21T22:08:42 IST" duration-ms="20078">
       <class name="com.qa.opencart.tests.LoginPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@7e744f43]" started-at="2024-12-21T21:53:59 IST" name="setUp" finished-at="2024-12-21T21:54:12 IST" duration-ms="12968" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@14b0e127]" started-at="2024-12-21T22:08:22 IST" name="setUp" finished-at="2024-12-21T22:08:36 IST" duration-ms="14617" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -16,11 +16,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTestWithInvalidcredentials()[pri:5, instance:com.qa.opencart.tests.LoginPageTest@7e744f43]" started-at="2024-12-21T21:54:12 IST" name="loginTestWithInvalidcredentials" finished-at="2024-12-21T21:54:16 IST" duration-ms="4026" status="PASS">
+        <test-method signature="loginTestWithInvalidcredentials()[pri:5, instance:com.qa.opencart.tests.LoginPageTest@14b0e127]" started-at="2024-12-21T22:08:36 IST" name="loginTestWithInvalidcredentials" finished-at="2024-12-21T22:08:40 IST" duration-ms="4159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestWithInvalidcredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@7e744f43]" started-at="2024-12-21T21:54:16 IST" name="tearDown" finished-at="2024-12-21T21:54:18 IST" duration-ms="1130" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@14b0e127]" started-at="2024-12-21T22:08:40 IST" name="tearDown" finished-at="2024-12-21T22:08:42 IST" duration-ms="1148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

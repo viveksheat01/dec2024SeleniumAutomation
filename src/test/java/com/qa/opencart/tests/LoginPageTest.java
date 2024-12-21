@@ -79,7 +79,7 @@ public class LoginPageTest extends BaseTest {
 	@Test(priority = 5)
 	public void loginTestWithInvalidcredentials() {
 
-	accPage=loginpage.doLogin(prop.getProperty("username"), prop.getProperty("invalidpassword"));
+	accPage=loginpage.doLogin(prop.getProperty("username"), ("27139"));
 	Assert.assertEquals( Appcontants.LOGIN_WITH_INVALID_CREDENTAIL,AppErrors.LOGIN_NOT_FOUND);
 	
 
