@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 35.734 s <<< FAILURE! - in TestSuite
+loginPageTitleTest(com.qa.opencart.tests.LoginPageTest)  Time elapsed: 1.049 s  <<< FAILURE!
+java.lang.AssertionError: =====TITLE NOT FOUND======== expected [Account Login11] but found [Account Login]
+	at com.qa.opencart.tests.LoginPageTest.loginPageTitleTest(LoginPageTest.java:17)
+
+accPageTitleTest(com.qa.opencart.tests.AccountPageTest)  Time elapsed: 0.143 s  <<< FAILURE!
+java.lang.AssertionError: =====TITLE NOT FOUND======== expected [My Account11] but found [My Account]
+	at com.qa.opencart.tests.AccountPageTest.accPageTitleTest(AccountPageTest.java:25)
+
+productImagesCountTest(com.qa.opencart.tests.ProductInfoPageTest)  Time elapsed: 0.255 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.linkText: imac (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.5', java.version: '11.0.20'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 133.0.3, moz:accessibilityChecks: false, moz:buildID: 20241209150345, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 23.5.0, moz:processID: 39603, moz:profile: /var/folders/2j/zy7xvbdx699..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 816fe50c-a473-4b88-83ce-911725138d4b
+	at com.qa.opencart.tests.ProductInfoPageTest.productImagesCountTest(ProductInfoPageTest.java:61)
+
+loginTest(com.qa.opencart.tests.LoginPageTest)  Time elapsed: 1.547 s  <<< FAILURE!
+java.lang.AssertionError: =====TITLE NOT FOUND======== expected [My Account11] but found [My Account]
+	at com.qa.opencart.tests.LoginPageTest.loginTest(LoginPageTest.java:40)
+
+searchTest(com.qa.opencart.tests.AccountPageTest)  Time elapsed: 0.526 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for presence of any elements located by By.cssSelector: div.product-thumb (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.5', java.version: '11.0.20'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 133.0.3, moz:accessibilityChecks: false, moz:buildID: 20241209150345, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 23.5.0, moz:processID: 39605, moz:profile: /var/folders/2j/zy7xvbdx699..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 6f61b1fc-edb0-42e4-9fd8-68e9f09e2f11
+	at com.qa.opencart.tests.AccountPageTest.searchTest(AccountPageTest.java:52)
+
