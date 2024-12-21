@@ -16,6 +16,10 @@ public class Appcontants {
 	public static final String LOGIN_PAGE_FRACTION_URL="route=account/login";
 	public static final String ACC_PAGE_FRACTION_URL="route=account/account";
 	
+	public static final String LOGIN_WITH_INVALID_CREDENTAIL
+	="Warning: No match for E-Mail Address and/or Password.";
+
+	
 	
 	public static final List<String> ACC_PAGE_HEADERS_LIST=
 			Arrays.asList("My Account", "My Orders", "My Affiliate Account", "Newsletter");

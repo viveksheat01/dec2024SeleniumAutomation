@@ -6,7 +6,7 @@
       <class name="com.qa.opencart.tests.LoginPageTest">
         <methods>
           <include name="setUp"/>
-          <include name="loginPageTitleTest"/>
+          <include name="loginTestWithInvalidcredentials"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.qa.opencart.tests.LoginPageTest -->
