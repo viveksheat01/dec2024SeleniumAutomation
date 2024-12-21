@@ -26,7 +26,7 @@ import io.qameta.allure.Story;
 public class LoginPageTest extends BaseTest {
 
 	
-	@Description("checking login page title-------")
+	@Description("checking login page title Test-------")
 	@Severity(SeverityLevel.MINOR)
 	@Owner("Vivek Singh")
 	@Test(priority = 1)

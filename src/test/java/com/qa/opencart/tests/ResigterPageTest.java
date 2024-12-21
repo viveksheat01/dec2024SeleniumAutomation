@@ -24,7 +24,7 @@ public class ResigterPageTest extends BaseTest {
 		
 		return new Object[][] {
 			{"vivek", "selenium", "9876543222", "vivek@123","yes"},
-			{"niraj", "niraj", "7702930002", "niraj@123","no"},
+			{"niraj", "singh", "7702930002", "niraj@123","no"},
 			{"tom", "tom", "8393900002", "tom@123","yes"}
 			
 			
