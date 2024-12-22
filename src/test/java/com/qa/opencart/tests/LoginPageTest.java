@@ -29,7 +29,7 @@ public class LoginPageTest extends BaseTest {
 	@Description("checking login page title Test-------")
 	@Severity(SeverityLevel.MINOR)
 	@Owner("Vivek Singh")
-	@Test(priority = 1)
+	@Test(priority = 2)
 	public void loginPageTitleTest() {
 
 		String actTile = loginpage.getLoginPageTitle();
@@ -41,7 +41,7 @@ public class LoginPageTest extends BaseTest {
 	@Description("Checking login page Url------")
 	@Severity(SeverityLevel.NORMAL)
 	@Owner("Vivek Singh")
-	@Test(priority = 2)
+	@Test(priority = 3)
 	public void loginPageUrlTest() {
 
 		String actUrl = loginpage.getLoginPageUrl();
@@ -53,7 +53,7 @@ public class LoginPageTest extends BaseTest {
 	@Description("Checking firgot pwd link exist on the login page------")
 	@Severity(SeverityLevel.CRITICAL)
 	@Owner("Vivek Singh")
-	@Test(priority = 3)
+	@Test(priority = 4)
 	public void forgotpwdLinkExitTest() {
 		Assert.assertTrue(loginpage.checkForgotPwdlinkExist(), AppErrors.ELEMENT_NOT_FOUND);
 
@@ -62,7 +62,7 @@ public class LoginPageTest extends BaseTest {
 	@Description("Checking user is able to login successfully------")
 	@Severity(SeverityLevel.BLOCKER)
 	@Owner("Vivek Singh")
-	@Test(priority = 4)
+	@Test(priority = 5)
 	public void loginTest() {
 
 	accPage=loginpage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
@@ -76,7 +76,7 @@ public class LoginPageTest extends BaseTest {
 	@Description("Checking user is NOT able to login giving Invalidcredentials------")
 	@Severity(SeverityLevel.BLOCKER)
 	@Owner("Vivek Singh")
-	@Test(priority = 5)
+	@Test(priority = 1)
 	public void loginTestWithInvalidcredentials() {
 
 	accPage=loginpage.doLogin(prop.getProperty("username"), ("27139"));
