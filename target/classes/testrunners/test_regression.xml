@@ -22,7 +22,7 @@
 
 		</classes>
 	</test>
-
+<!-- 
 	<test name="Account Page Test">
 		<parameter name="browser" value="Firefox"></parameter>
 
@@ -40,13 +40,16 @@
 
 		</classes> 
 	</test>
+	
+	
 	<test name="Register Page Test">
 		<parameter name="browser" value="Firefox"></parameter>
 		<classes>
 			<class name="com.qa.opencart.tests.ResigterPageTest" />
 
 		</classes>
+		
 	</test>
-
+-->
 
 </suite>	

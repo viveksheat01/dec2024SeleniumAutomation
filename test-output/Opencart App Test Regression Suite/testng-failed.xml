@@ -6,16 +6,17 @@
     <listener class-name="com.qa.opencart.listeners.TestAllureListener"/>
     <listener class-name="com.qa.opencart.listeners.AnnotationTransformer"/>
   </listeners>
-  <test thread-count="3" parallel="tests" name="login Page Test(failed)" verbose="4">
-    <parameter name="browser" value="chrome"/>
+  <test thread-count="3" parallel="tests" name="Account Page Test(failed)" verbose="4">
+    <parameter name="browser" value="Firefox"/>
     <classes>
-      <class name="com.qa.opencart.tests.LoginPageTest">
+      <class name="com.qa.opencart.tests.AccountPageTest">
         <methods>
+          <include name="accSetUp"/>
           <include name="setUp"/>
-          <include name="loginTestWithInvalidcredentials"/>
+          <include name="searchTest" invocation-numbers="3 3 3 3"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.qa.opencart.tests.LoginPageTest -->
+      </class> <!-- com.qa.opencart.tests.AccountPageTest -->
     </classes>
-  </test> <!-- login Page Test(failed) -->
+  </test> <!-- Account Page Test(failed) -->
 </suite> <!-- Failed suite [Opencart App Test Regression Suite] -->
