@@ -46,7 +46,7 @@ pipeline
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
                     git 'https://github.com/viveksheat01/dec2024SeleniumAutomation'
-                    sh "mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testrunners/test_regression.xml"
+                    sh "mvn clean test -Dsurefire.suiteXmlFiles=src/test/resource/testrunners/test_regression.xml"
                     
                 }
             }
@@ -90,7 +90,7 @@ pipeline
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
                     git 'https://github.com/viveksheat01/dec2024SeleniumAutomation'
-                    sh "mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testrunners/sanityTest.xml"
+                    sh "mvn clean test -Dsurefire.suiteXmlFiles=src/test/resource/testrunners/sanityTest.xml"
                     
                 }
             }
