@@ -6,6 +6,7 @@ com/qa/opencart/utils/JavaScriptUtil.class
 com/qa/opencart/contants/Appcontants.class
 com/qa/opencart/ecpections/FramworkExpection.class
 com/qa/opencart/pages/LoginPage.class
+com/qa/opencart/listeners/Retry.class
 com/qa/opencart/utils/ExcelUtil.class
 com/qa/opencart/listeners/TestAllureListener.class
 com/qa/opencart/pages/SearchResultsPage.class
@@ -14,6 +15,7 @@ com/qa/opencart/utils/ElementUtil.class
 com/qa/opencart/factory/DriverFactory.class
 com/qa/opencart/pages/ProductInfoPage.class
 com/qa/opencart/utils/Timeutil.class
+com/qa/opencart/listeners/AnnotationTransformer.class
 com/qa/opencart/pages/AccountPage.class
 com/qa/opencart/factory/OptionsManager.class
 com/qa/opencart/listeners/ExtentReportListener.class
